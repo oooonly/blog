@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import UnoCSS from 'unocss/vite'
 import { search as rootSearch } from './root'
 import { search as enSearch } from './en'
 
@@ -31,5 +32,8 @@ export default defineConfig({
         link: 'tencent://message/?uin=1184842374&Site=www.xxxxxx.com&Menu=yes'
       }
     ]
+  },
+  vite: {
+    plugins: [UnoCSS('../../uno.config.ts')]
   }
 })
