@@ -7,7 +7,7 @@ export default defineConfig({
   description: 'anything of life',
   srcDir: 'src',
   outDir: 'dist',
-  base: './',
+  base: '/blog/',
   rewrites: {
     ':locale': '/:locale'
   },
