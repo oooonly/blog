@@ -14,6 +14,10 @@ export default {
           { text: 'Markdown 案例', link: 'pages/markdown-examples' },
           { text: 'Runtime API 案例', link: 'pages/api-examples' }
         ]
+      },
+      {
+        text: 'nuxt',
+        items: [{ text: 'nuxt + elysia', link: 'pages/nuxt/nuxt+elysia' }]
       }
     ]
   }

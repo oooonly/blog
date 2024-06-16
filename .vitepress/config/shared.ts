@@ -34,6 +34,9 @@ export default defineConfig({
     ]
   },
   vite: {
-    plugins: [UnoCSS('../../uno.config.ts')]
+    plugins: [UnoCSS('../../uno.config.ts')],
+    server: {
+      host: true
+    }
   }
 })
